@@ -7,6 +7,9 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+<!-- TEST BRANCH!!! -->
+
+
     <!-- Define your beans here -->
    
    <!-- Define the dependency --> 
@@ -20,7 +23,6 @@
     			<!--  set up constructor injection !!!  -->	
 		<constructor-arg ref="myFortune" />
     </bean>
-    
     
     
     <!--  BE AWEAR OF ID !!!!, call it in the main -->
